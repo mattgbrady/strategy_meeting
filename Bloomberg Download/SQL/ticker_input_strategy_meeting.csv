@@ -1,0 +1,77 @@
+data_source,ticker,field,long_name,short_name,category,geography,sector,ticker_type,calc_returns,perf_tbl_bucket_one,perf_tbl_bucket_two,date_offset,dt_start,dt_end,freq
+BDH,SPXT Index,PX_LAST,S&P 500 Total Return,S&P 500,equities,US,None,Index Total Return,TRUE,Equity,Developed,,1/1/1927,Inf,D
+BDH,NKYTR Index,PX_LAST,Nikkei Total Return Idx,Nikkei 225,equities,Japan,None,Index Total Return,TRUE,Equity,Developed,,1/1/1927,Inf,D
+BDH,UKXDUK Index,PX_LAST,FTSE 100 TR Dcld Dvd Ix,FTSE 100,equities,UK,None,Index Total Return,TRUE,Equity,Developed,,1/1/1927,Inf,D
+BDH,SX5T Index,PX_LAST,ESTX 50 NRt,Euro 50,equities,Europe,None,Index Total Return,TRUE,Equity,Developed,,1/1/1927,Inf,D
+BDH,SPX Index,PROF_MARGIN,S&P 500 INDEX,S&P 500 Profit Margin,equity,US,None,Profit Margin,FALSE,None,None,,1/1/1927,Inf,D
+BDH,SPX Index,RR906,S&P 500 INDEX,S&P 500 12M Trailing EPS,equity,US,None,Trailing EPS,FALSE,None,None,,1/1/1927,Inf,D
+BDH,SPX Index,BE008,S&P 500 INDEX,S&P 500 12M Forwards EPS,equity,US,None,Forward EPS,FALSE,None,None,,1/1/1927,Inf,D
+BDH,LGTRTRUU Index,PX_LAST,GA Treasuries,Global Treasuries USD,rates,Global,None,Index Total Return,TRUE,Rates,Global,,1/1/1927,Inf,D
+BDH,LGTRTRUH Index,PX_LAST,GA Treasuries TR Hed,Global Treasuries Hedged,rates,Global,None,Index Total Return,TRUE,Rates,Global,,1/1/1927,Inf,D
+BDH,MXCXDMHR Index,PX_LAST,MXCXDMHR,ACWI Hedged,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,MXWD Index,PX_LAST,MSCI ACWI,ACWI USD,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,LG30TRUU Index,PX_LAST,Global High Yield,Global High Yield USD,credit,Global,None,Index Total Return,TRUE,Credit,Global,,1/1/1927,Inf,D
+BDH,LG30TRUH Index,PX_LAST,Global HY Hedged USD,Global High Yield Hedged,credit,Global,None,Index Total Return,TRUE,Credit,Global,,1/1/1927,Inf,D
+BDH,BCOMTR Index,PX_LAST,BBG Commodity TR,Commodity,commodities,Global,None,Index Total Return,TRUE,Commodity,Global,,1/1/1927,Inf,D
+BDH,CSLAB Index,PX_LAST,Credit Suisse Liquid Alternati,Alternative Beta,alternatives,US,None,Index Total Return,TRUE,Hedge Fund,Alternative Beta,,1/1/1927,Inf,D
+BDH,SPX Index,PX_LAST,S&P 500 INDEX,S&P 500 ,equities,US,None,Index Price,FALSE,Equity,Developed,,1/1/1927,Inf,D
+BDH,LUATTRUU Index,PX_LAST,U.S. Treasury,US Treasuries,rates,US,None,Index Total Return,TRUE,Rates,Developed,,1/1/1927,Inf,D
+BDH,MXEA Index,PX_LAST,MSCI EAFE,EAFE USD,equities,EAFE,None,Index Total Return,TRUE,Equity,Developed,,1/1/1927,Inf,D
+BDH,MXEF Index,PX_LAST,MSCI EM,EM USD,equities,EM,None,Index Total Return,TRUE,Equity,EM,,1/1/1927,Inf,D
+BDH,NDLEBRAF Index,PX_LAST,MSCI Daily TR Net Brazil,Brazil,equities,EM,None,Index Total Return,TRUE,Equity,EM,,1/1/1927,Inf,D
+BDH,NDELSRU Index,PX_LAST,MSCI Daily TR Net Emergi,Russia,equities,EM,None,Index Total Return,TRUE,Equity,EM,,1/1/1927,Inf,D
+BDH,MXWO Index,PX_LAST,MSCI WORLD,World USD,equities,Global,None,Index Total Return,TRUE,Equity,Developed,,1/1/1927,Inf,D
+BDH,M1WDUQU Index,PX_LAST,MSCI ACWI x US Quality NRU,ACWI ex US Quality USD,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,M1WDUVW Index,PX_LAST,MSCI ACWI x US V WGT NR,ACWI ex US Value USD,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,M1WDUVOU Index,PX_LAST,MSCI ACWI x US MVol NR,ACWI ex US Low Vol USD,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,M1WOUMO Index,PX_LAST,MSCI World ex USA Mom NRU,ACWI ex US Momentum USD,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,M4WDUDY Index,PX_LAST,MSCI ACWI ex USA HDY NRL,ACWI ex US Carry USD,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,M1WDUSC Index,PX_LAST,MSCI ACWI ex USA SC NR,ACWI ex US Size USD,equities,Global,None,Index Total Return,TRUE,Equity,Global,,1/1/1927,Inf,D
+BDH,M1USQU Index,PX_LAST,MSCI USA Quality Net,US Quality ,equities,US,None,Index Total Return,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,M1US000V Index,PX_LAST,MSCI USA VALUE NR,US Value ,equities,US,None,Index Total Return,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,MXUSMVOL Index,PX_LAST,MSCI USA Min Volatil USD,US Low Vol,equities,US,None,Index Total Return,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,M1USMMT Index,PX_LAST,MSCI US Momentum USD NTR,US Momentum,equities,US,None,Index Total Return,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,MXUSAHDV Index,PX_LAST,MSCI USA High Dvd Yield,US Carry,equities,US,None,Index Total Return,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,M1USSC Index,PX_LAST,MSCI USA SM CAP NR,US Size,equities,US,None,Index Total Return,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5HLTH Index,PX_LAST,S&P 500 HEALTH CARE IDX,S&P 500 Health Care,equities,US,Health Care,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5INFT Index,PX_LAST,S&P 500 INFO TECH INDEX,S&P 500 Technology,equities,US,Technology,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5ENRS Index,PX_LAST,S&P 500 ENERGY INDEX,S&P 500 Energy,equities,US,Energy,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5COND Index,PX_LAST,S&P 500 CONS DISCRET IDX,S&P 500 Consumer Discretionary,equities,US,Consumer Discretionary,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5CONS Index,PX_LAST,S&P 500 CONS STAPLES IDX,S&P 500 Consumer Staples,equities,US,Consumer Staples,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5RLST Index,PX_LAST,S&P 500 REAL ESTATE IDX,S&P 500 Real Estate,equities,US,Real Estate,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5FINL Index,PX_LAST,S&P 500 FINANCIALS INDEX,S&P 500 Financials,equities,US,Financials,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5INDU Index,PX_LAST,S&P 500 INDUSTRIALS IDX,S&P 500 Industrials,equities,US,Industrials,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5TELS Index,PX_LAST,S&P 500 TELECOM SERV IDX,S&P 500 Telecommunications,equities,US,Telecommunications,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5MATR Index,PX_LAST,S&P 500 MATERIALS INDEX,S&P 500 Materials,equities,US,Materials,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,S5UTIL Index,PX_LAST,S&P 500 UTILITIES INDEX,S&P 500 Utilities,equities,US,Utilities,Index Price,TRUE,Equity,US,,1/1/1927,Inf,D
+BDH,USGG10YR Index,PX_LAST,US Generic Govt 10 Year Yield,US 10 Yr Yield,rates,US,None,Yield,FALSE,None,None,,1/1/1927,Inf,D
+BDH,GDBR10 Index,PX_LAST,Germany Generic Govt 10Y Yield,German 10 Yr Yield,rates,Germany,None,Yield,FALSE,None,None,,1/1/1927,Inf,D
+BDH,GUKG10 Index,PX_LAST,UK Govt Bonds 10 Year Note Gen,UK 10 Yr Yield,rates,UK,None,Yield,FALSE,None,None,,1/1/1927,Inf,D
+BDH,GJGB10 Index,PX_LAST,Japan Generic Govt 10Y Yield,Japan 10 Yr Yield,rates,Japan,None,Yield,FALSE,None,None,,1/1/1927,Inf,D
+BDH,CESIUSD Index,PX_LAST,Citi Economic Surprise - Unite,US Economic Surprise,economic,US,None,Index,FALSE,None,None,,1/1/1927,Inf,D
+BDH,CESIGBP Index,PX_LAST,Citi Economic Surprise - Unite,UK Economic Surprise,economic,UK,None,Index,FALSE,None,None,,1/1/1927,Inf,D
+BDH,CESIJPY Index,PX_LAST,Citi Economic Surprise - Japan,Japan Economic Surprise,economic,Japan,None,Index,FALSE,None,None,,1/1/1927,Inf,D
+BDH,CESIEUR Index,PX_LAST,Citi Economic Surprise Index -,Europe Economic Surprise,economic,Europe,None,Index,FALSE,None,None,,1/1/1927,Inf,D
+BDH,CESIG10 Index,PX_LAST,Citi Economic Surprise Index -,Developed Economic Surprise,economic,Developed,None,Index,FALSE,None,None,,1/1/1927,Inf,D
+BDH,CESIEM Index,PX_LAST,Citi Economic Surprise Index -,EM Economic Surprise,economic,EM,None,Index,FALSE,None,None,,1/1/1927,Inf,D
+BDH,GDP CYOY Index,PX_LAST,GDP US Chained 2009 Dollars Yo,US GDP YoY,economic,US,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,UKGRABIY Index,PX_LAST,UK GDP Chained GDP at Market P,UK GDP YoY,economic,UK,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,JGDPNSAQ Index,PX_LAST,Japan GDP Real Chained NSA YoY,Japan GDP YoY,economic,Japan,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,GRGDPPGY Index,PX_LAST,Germany GDP Chain Linked Pan G,Germany GDP YoY,economic,Germany,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,CNGDPYOY Index,PX_LAST,China GDP Constant Price YoY,China GDP YoY,economic,China,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,MXGCTOT Index,PX_LAST,Mexico GDP Total YoY NSA,Mexico GDP YoY,economic,Mexico,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,BZGDYOY% Index,PX_LAST,Brazil GDP YoY 1995=100,Brazil GDP YoY,economic,Brazil,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,RUDPRYOY Index,PX_LAST,Russia GDP 2011 Const Prices Y,Russia GDP YoY,economic,Russia,None,YoY,FALSE,None,None,,1/1/1927,Inf,D
+BDH,EURUSDTL BLC Curncy,PX_LAST,EUR-USD Total Ret Long,EUR/USD ,currency,Eurozone,None,Index Total Return,TRUE,Currency,Developed,,1/1/1927,Inf,D
+BDH,JPYUSDTL Curncy,PX_LAST,JPY-USD Total Ret Long,JPY/USD,currency,Japan,None,Index Total Return,TRUE,Currency,Developed,,1/1/1927,Inf,D
+BDH,GBPUSDTL Curncy,PX_LAST,GBP-USD Total Ret Long,GBP/USD,currency,UK,None,Index Total Return,TRUE,Currency,Developed,,1/1/1927,Inf,D
+BDH,FXCTEM8 Index,PX_LAST,Bloomberg Cumulative FX Carry,EM/USD,currency,EM,None,Index Total Return,TRUE,Currency,EM,,1/1/1927,Inf,D
+BDH,LUATTRUU Index,PX_LAST,U.S. Treasury,US Rates,rates,US,None,Index Total Return,TRUE,Rates,Developed,,1/1/1927,Inf,D
+BDH,BCEK9T Index,PX_LAST,Bloomberg Barclays UK Govt 7 t,UK Rates,rates,UK,None,Index Total Return,TRUE,Rates,Developed,,1/1/1927,Inf,D
+BDH,LTY1TREH Index,PX_LAST,Bloomberg Barclays Euro Treasu,Eurozone Rates,rates,Eurozone,None,Index Total Return,TRUE,Rates,Developed,,1/1/1927,Inf,D
+BDH,BGTJTRJU Index,PX_LAST,GL TSY JP 7y+ TR Unh JPY,Japan Rates,rates,Japan,None,Index Total Return,TRUE,Rates,Developed,,1/1/1927,Inf,D
+BDH,JGENVUUG Index,PX_LAST,J.P. Morgan GBI-EM Global Dive,EM Local,rates,EM,None,Index Total Return,TRUE,Rates,EM,,1/1/1927,Inf,D
+BDH,JPEIGLBL Index,PX_LAST,J.P. Morgan EMBI Global Total,EM Hard,rates,EM,None,Index Total Return,TRUE,Rates,EM,,1/1/1927,Inf,D
+BDH,BCOMCLTR Index,PX_LAST,BBG WTI Crude Oil  TR,Oil,commodities,Global,None,Index Total Return,TRUE,Commodity,Global,,1/1/1927,Inf,D
+BDH,BCOMGCTR Index,PX_LAST,BBG Gold TR,Gold,commodities,Global,None,Index Total Return,TRUE,Commodity,Global,,1/1/1927,Inf,D
+BDH,LT15TRUU Index,PX_LAST,US TIPS 5-15Y TR Unh,TIPS,commodities,US,None,Index Total Return,TRUE,Commodity,Global,,1/1/1927,Inf,D
